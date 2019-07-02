@@ -8,7 +8,7 @@
   "author": "James Liu",
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "^6.0.4",
+    "babel-eslint": "^10.0.2",
     "browser-sync": "^2.12.5",
     "csslint": "^0.10.0",
     "eslint": "^2.9.0",
