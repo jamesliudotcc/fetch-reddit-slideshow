@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.14.2
+    - 7.22.0
+    - 7.23.0
+    - 7.23.1
+  - dependency-name: babel-eslint
+    versions:
+    - 10.0.2
